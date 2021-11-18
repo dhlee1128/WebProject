@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+    <!--로그 파일 저장 위치-->
+    <property name="LOGS_PATH" value="d:/logs/ATUM_Office_Deploy"/>
+     <!-- Console Appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] [%logger{36}:%line] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- Rolling File Appender -->
+    <appender name="DAILY_ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 파일 경로 -->
+        <file>${LOGS_PATH}/ATUM_Office_Deploy.log</file>
+        <!-- 출력패턴 -->
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] [%logger{36}:%line] - %msg%n</pattern>
+        </encoder>
+        <!-- Rolling 정책 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- .gz,.zip 등을 넣으면 자동으로 일자별 로그파일 압축 -->
+            <fileNamePattern>${LOGS_PATH}/%d{yyyy,aux}/%d{MM,aux}/atum-webportal_%d{yyyy-MM-dd-HH}.log.gz</fileNamePattern>
+            <!-- 일자별 로그파일 최대 보관주기(일단위) 만약 해당 설정일 이상된 파일은 자동으로 제거-->
+            <maxHistory>365</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- 개발 LOG - 배포판에서는 주석처리! -->
+    <!-- <logger name="com.become.atum.webportal" level="DEBUG">
+        <appender-ref ref="DAILY_ROLLING_FILE" />
+    </logger> -->
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="DAILY_ROLLING_FILE" />
+    </root>
+</configuration>

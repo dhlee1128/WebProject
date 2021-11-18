@@ -1,0 +1,13 @@
+HELP.md
+.gradle
+build/
+bin/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.history/
+
+LOGS_PATH_IS_UNDEFINED
+LOGS_PATH_IS_UNDEFINED/ATUM-WebPortal.log

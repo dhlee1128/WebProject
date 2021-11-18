@@ -1,0 +1,579 @@
+[
+  {
+    "name": "File",
+    "groups": [
+      {
+        "group": [
+          {
+            "name": "New",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ]
+          },
+          {
+            "name": "Open",
+            "target": "all",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ]
+          },
+          {
+            "name": "Close",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ]
+          },
+          {
+            "name": "Save",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ]
+          },
+          {
+            "name": "Save As",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ]
+          },
+          {
+            "name": "Save File",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ]
+          },
+          {
+            "name": "Open File",
+            "menuMode": [
+              "UX-DESIGNER",
+              "ACTION"
+            ]
+          },
+          {
+            "name": "Open Sketcher File",
+            "menuMode": [
+              "UX-SKETCHER"
+            ]
+          },
+          {
+            "name": "Edit Group",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          },
+          {
+            "name": "Export Functions",
+            "menuMode": [
+              "UX-DESIGNER",
+              "ACTION"
+            ],
+            "target": "all"
+          },
+          {
+            "name": "Export Function",
+            "menuMode": [
+              "UX-DESIGNER",
+              "ACTION"
+            ]
+          },
+          {
+            "name": "Import Function",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "ACTION"
+            ],
+            "target": "all"
+          },
+          {
+            "name": "Edit Multi Language",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-ARCHITECT",
+              "UX-DESIGNER",
+              "ACTION"
+            ]
+          },
+          {
+            "name": "Single",
+            "menuMode": [
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-ARCHITECT"
+            ]
+          },
+          {
+            "name": "Groups",
+            "menuMode": [
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-ARCHITECT"
+            ]
+          },
+          {
+            "name": "Combi",
+            "menuMode": ["UX-ARCHITECT"],
+            "toolbar": true,
+            "toolbarMode": ["UX-ARCHITECT"]
+          },
+          {
+            "name": "Template",
+            "menuMode": [
+              "UX-ARCHITECT"
+            ],
+            "toolbar": false,
+            "toolbarMode": [
+              "UX-ARCHITECT"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Edit",
+    "groups": [
+      {
+        "group": [
+          {
+            "name": "Undo",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ]
+          },
+          {
+            "name": "Redo",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ]
+          }
+        ],
+        "quickmenu": true
+      },
+      {
+        "group": [
+          {
+            "name": "Copy",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ]
+          },
+          {
+            "name": "Paste",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ]
+          },
+          {
+            "name": "Special Paste",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ]
+          }
+        ],
+        "quickmenu": true
+      },
+      {
+        "group": [
+          {
+            "name": "Delete",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Format",
+    "groups": [
+      {
+        "group": [
+          {
+            "name": "Left",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          },
+          {
+            "name": "H Center",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          },
+          {
+            "name": "Right",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          }
+        ],
+        "quickmenu": true
+      },
+      {
+        "group": [
+          {
+            "name": "Top",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          },
+          {
+            "name": "V Center",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          },
+          {
+            "name": "Bottom",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          }
+        ],
+        "quickmenu": true
+      },
+      {
+        "group": [
+          {
+            "name": "Bring to Front",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          },
+          {
+            "name": "Send to Back",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          }
+        ],
+        "quickmenu": true
+      },
+      {
+        "group": [
+          {
+            "name": "Same Width",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          },
+          {
+            "name": "Same Height",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          },
+          {
+            "name": "Same Size",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER"
+            ]
+          }
+        ],
+        "quickmenu": true
+      },
+      {
+        "group": [
+          {
+            "name": "Group",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ]
+          },
+          {
+            "name": "UnGroup",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true,
+            "toolbarMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ]
+          }
+        ],
+        "quickmenu": true
+      },
+      {
+        "group": [
+          {
+            "name": "Minus",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true
+          },
+          {
+            "name": "Zoom",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true
+          },
+          {
+            "name": "Plus",
+            "menuMode": [
+              "UX-SKETCHER",
+              "UX-DESIGNER",
+              "UX-ARCHITECT"
+            ],
+            "toolbar": true
+          }
+          
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wizard",
+    "groups": [
+      {
+        "group": [
+          {
+            "name": "Import Modeler File",
+            "menuMode": [
+              "UX-DESIGNER"
+            ],
+            "target": "all"
+          },
+          {
+            "name": "Export Modeler File",
+            "menuMode": [
+              "UX-DESIGNER"
+            ],
+            "target": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rule",
+    "groups": [
+      {
+        "group": [
+          {
+            "name": "QueryRule",
+            "menuMode": [
+              "UX-DESIGNER"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Window",
+    "groups": [
+      {
+        "group": [
+          {
+            "name": "Toolbox",
+            "target": "all"
+          },
+          {
+            "name": "Properties",
+            "target": "all"
+          },
+          {
+            "name": "Actions",
+            "target": "all"
+          },
+          {
+            "name": "Run Window",
+            "target": "all"
+          }
+        ]
+      },
+      {
+        "group": [
+          {
+            "name": "Lock",
+            "toolbar": false
+          },
+          {
+            "name": "Unlock",
+            "toolbar": false
+          }
+        ],
+        "quickmenu": true
+      }
+    ],
+    "disable": true
+  },
+  {
+    "name": "Requirement",
+    "groups": [
+      {
+        "group": [
+          {
+            "name": "Create UI Powerpoint",
+            "menuMode": [
+              "UX-DESIGNER"
+            ],
+            "target": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Message",
+    "groups": [
+      {
+        "group": [
+          {
+            "name": "Import Message Definition",
+            "menuMode": [
+              "UX-DESIGNER"
+            ],
+            "target": "all"
+          },
+          {
+            "name": "Message Create",
+            "menuMode": [
+              "UX-DESIGNER"
+            ],
+            "target": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Table",
+    "groups": [
+      {
+        "group": [
+          {
+            "name": "Import Table Definition",
+            "menuMode": [
+              "UX-DESIGNER"
+            ],
+            "target": "all"
+          },
+          {
+            "name": "Table Create",
+            "menuMode": [
+              "UX-DESIGNER"
+            ],
+            "target": "all"
+          }
+        ]
+      }
+    ]
+  }
+]

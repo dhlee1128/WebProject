@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "gradle build",
+      "type": "shell",
+      "command": "./gradlew clean build -Pprofile=prod",
+      "group": "build",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$go"
+      ]
+    },
+    {
+      "label": "gradle clean",
+      "type": "shell",
+      "command": "./gradlew clean",
+      "group": "build",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$go"
+      ]
+    },
+    {
+      "label": "gradle deploy remote",
+      "type": "shell",
+      "command": "./gradlew clean build cargoDeployRemote",
+      "group": "build",
+      "options": {
+          "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+          "$go"
+      ]
+    }
+  ]
+}
