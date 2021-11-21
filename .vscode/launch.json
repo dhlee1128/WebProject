@@ -1,20 +1,20 @@
 {
     "configurations": [
         {
-            "name": "🌏 Launch WebPortal",
+            "name": "🌏 Launch WebProject",
             "request": "launch",
             "type": "pwa-chrome",
-            "url": "http://localhost:8080/KhepriWeb",
+            "url": "http://localhost:8070/WebProject",
             "webRoot": "${workspaceFolder}"
         },
         {
             "type": "java",
-            "name": "Spring Boot-WebPortal",
+            "name": "Spring Boot-WebPortalApplication<WebProject>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
-            "mainClass": "com.become.atum.webportal.WebPortalApplication",
-            "projectName": "WebPortal",
+            "mainClass": "com.project.webproject.WebPortalApplication",
+            "projectName": "WebProject",
             "args": ""
         }
     ]

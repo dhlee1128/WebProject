@@ -29,7 +29,9 @@ public class DbConfig implements TransactionManagementConfigurer {
          final String CONST_MARIADB_PARAMETER   = "?characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=UTC";
 
         hikariConfig.setDriverClassName(CONST_MARIADB_CLASSNAME);
-        hikariConfig.setJdbcUrl(CONST_MARIADB_STRING+"localhost"+CONST_MARIADB_PORT_SID+"development"+CONST_MARIADB_PARAMETER);
+        hikariConfig.setJdbcUrl(CONST_MARIADB_STRING+"localhost"+CONST_MARIADB_PORT_SID+"DEVELOPMENT"+CONST_MARIADB_PARAMETER);
+        hikariConfig.setUsername("DEVELOP");
+        hikariConfig.setPassword("DEVELOP");
 
          HikariDataSource dataSource=new HikariDataSource(hikariConfig);
          return dataSource;

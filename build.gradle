@@ -127,8 +127,8 @@ cargo {
     }
 
     remote {
-        hostname = "192.168.0.28"//server address
+        hostname = "localhost"//server address
         username = "tomcat" //from tomcat-users.xml
-        password = "become1!"
+        password = "development"
     }
 }
