@@ -16,6 +16,16 @@
             "mainClass": "com.project.webproject.WebPortalApplication",
             "projectName": "WebProject",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WebPortalApplication<WebPortal>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.project.webproject.WebPortalApplication",
+            "projectName": "WebPortal",
+            "args": ""
         }
     ]
 }
