@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Navbar} from "react-bootstrap";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes} from "react-router-dom";
 
 import MainComponent from "./main-home";
 import DashboardComponent from "./Dashboard";
@@ -9,10 +9,10 @@ class TopMenuComponent extends Component {
     render() {
         return (
             <Router>
-                <Navbar>
+                <Navbar
                     bg="dark"
                     variant="dark"
-                    className="mg-4"
+                    className="mg-4" >
                     <Navbar.Brand href="/">
                         Home
                     </Navbar.Brand>
@@ -24,8 +24,8 @@ class TopMenuComponent extends Component {
                     </Navbar.Brand>
                 </Navbar>
 
-                <Route path="/main-home" component={MainComponent} />
-                <Route path="/Dashboard" component={DashboardComponent} />
+                <Routes path="/main-home" component={MainComponent} />
+                <Routes path="/Dashboard" component={DashboardComponent} />
             </Router>
         )
     }
