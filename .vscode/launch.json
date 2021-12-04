@@ -8,6 +8,7 @@
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
+            "console": "internalConsole",
             "mainClass": "${file}"
         },
         {
@@ -15,6 +16,7 @@
             "name": "Launch WebprojectApplication",
             "request": "launch",
             "mainClass": "com.project.webproject.WebprojectApplication",
+            "console": "internalConsole",
             "projectName": "webproject"
         }
     ]
