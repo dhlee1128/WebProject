@@ -6,10 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @RestController
-@RequestMapping(value = "/vscode")
 public class testController {
     
-    @GetMapping(value={"","/"})
+    @GetMapping("/api/test")
     public String enter() {
         return "StringBoot Test!";
     }
