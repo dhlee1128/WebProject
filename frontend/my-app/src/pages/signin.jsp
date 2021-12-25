@@ -1,4 +1,4 @@
-<html lang="en"><head>
+<html lang="ko"><head>
     <meta charset="utf-8">
     <title>MeetMe</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
