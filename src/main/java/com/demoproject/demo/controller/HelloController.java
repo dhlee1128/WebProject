@@ -20,4 +20,31 @@ public class HelloController {
         model.addAttribute("name", name);
         return "hello-template";
     }
+
+    @GetMapping("hello-spring")
+    @ResponseBody
+    public String helloSpring(@RequestParam("name") String name) {
+        return "hello " + name;
+    }
+
+    @GetMapping("hello-api")
+    @ResponseBody
+    public Hello helloApi(@RequestParam("name") String name) {
+        Hello hello = new Hello();
+        hello.setName(name);
+        return hello;
+    }
+
+    static class Hello {
+        private String name;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
+    
 }
