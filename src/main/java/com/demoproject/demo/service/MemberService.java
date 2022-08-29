@@ -3,9 +3,12 @@ package com.demoproject.demo.service;
 import java.util.List;
 import java.util.Optional;
 
+import javax.transaction.Transactional;
+
 import com.demoproject.demo.domain.Member;
 import com.demoproject.demo.repository.MemberRepository;
 
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
